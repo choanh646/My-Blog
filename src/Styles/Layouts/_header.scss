@@ -1,0 +1,69 @@
+#header {
+  .header__content {
+    width: 100%;
+    margin-top: 10px;
+    .change__theme__btn {
+      .icons__theme {
+        margin-top: 5px;
+      }
+    }
+    .header__nav {
+      min-height: 60px;
+      ul {
+        .active {
+          border-bottom: 3px solid #c6a3b0;
+          font-size: 18px;
+          font-weight: bold;
+        }
+        li {
+          min-width: 80px;
+          margin-right: 50px;
+          transition: all 0.3s;
+          font-size: 16px;
+          border-radius: 7px;
+          &:hover {
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+          }
+          a {
+            padding: 3px 15px;
+            text-decoration: none;
+            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
+              serif;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  // // RESPONSIVE
+  // @media screen and(max-width:1367px) {
+
+  // }
+  @media screen and(max-width:768.1px) {
+    .header__content {
+      .header__nav {
+        ul {
+          .active {
+            font-size: 16px;
+          }
+          li {
+            margin-right: 10px;
+            font-size: 13px;
+            &:hover {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and(max-width:576px) {
+    .header__content {
+        .header__nav {
+      min-height: 10px;
+        }
+      }
+  }
+}
