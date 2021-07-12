@@ -5,7 +5,7 @@ export default function Home({}) {
   return (
     <div id="home" className="container">
       <div className="row home__content">
-        <div className="col-5">
+        <div className="home__wellcome col-lg-5 col-md-8 col-10">
           <h1>
             <i>Wellcome!</i>
           </h1>
@@ -30,7 +30,7 @@ export default function Home({}) {
               </ul>
             </div>
           </div>
-          <div className="home__summary mb-5">
+          <div className="home__summary mb-5 d-lg-block d-none">
             <p>
               <b style={{ color: "#3083DC", fontSize: "18px" }}>With</b> the
               available knowledge, I will try to do a good job. Besides,
@@ -41,18 +41,23 @@ export default function Home({}) {
               </i>
             </p>
           </div>
+          <button className="home__btn__about d-lg-none d-md-block">
+            <span>
+              <Link to="/about">Read more</Link>
+            </span>
+          </button>
           <button className="home__btn__contact">
             <span>
-            <Link to="/contact">Contact Me</Link>
+              <Link to="/contact">Contact Me</Link>
             </span>
           </button>
         </div>
-        <div className="home__img col-7">
+        <div className="home__img col-lg-7 col-12">
           <lottie-player
             src="https://assets10.lottiefiles.com/packages/lf20_jvt4bdg7.json"
             background="transparent"
             speed="1"
-            style={{ width: "600px", height: "545px" }}
+            style={{ width: "100%", height: "545px" }}
             loop
             autoplay
           />

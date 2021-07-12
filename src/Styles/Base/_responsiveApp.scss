@@ -1,0 +1,38 @@
+body {
+  .app__blog {
+    padding: 50px 0;
+    .MuiPaper-root {
+      width: 80%;
+      border-radius: 19px;
+      min-height: 780px;
+    }
+  }
+  // // RESPONSIVE
+  @media screen and(max-width:1367px) {
+    .app__blog {
+      .MuiPaper-root {
+        width: 85%;
+        min-height: 668px;
+      }
+    }
+  }
+  @media screen and(max-width:768.98px) {
+    .app__blog {
+    padding: 20px 0;
+      .MuiPaper-root {
+        width: 95%;
+        min-height: 984px;
+      }
+    }
+  }
+  @media screen and(max-width:576px) {
+    .app__blog {
+      padding: 0;
+      .MuiPaper-root {
+        width: 100%;
+        border-radius: 0;
+        min-height: 736px;
+      }
+    }
+  }
+}

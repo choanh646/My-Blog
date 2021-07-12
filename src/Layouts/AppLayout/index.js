@@ -13,7 +13,7 @@ export default function AppLayout({ children,...props }) {
   };
 
   return (
-    <div style={theme === false ? styleAppLayoutLight : styleAppLayoutDark}>
+    <div className="app__blog" style={theme === false ? styleAppLayoutLight : styleAppLayoutDark}>
       <Paper
         elevation={2}
         style={theme === false ? styleContentLight : styleContentDark}
