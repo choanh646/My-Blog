@@ -1,7 +1,8 @@
+import ScrollToTop from "src/Components/ScrollToTop";
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Home({}) {
+export default function Home() {
   return (
     <div id="home" className="container">
       <div className="row home__content">
@@ -63,6 +64,8 @@ export default function Home({}) {
           />
         </div>
       </div>
+      <ScrollToTop/>
+
     </div>
   );
 }

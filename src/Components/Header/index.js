@@ -11,7 +11,7 @@ export default function Header({ handleChangeTheme, theme }) {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   const styleChangeColorTheme =
-    theme === false ? { color: "#242424" } : { color: "#8168af" };
+    theme === false ? { color: "#242424" } : { color: "#3083dc" };
 
   return (
     <div id="header" className="container">
