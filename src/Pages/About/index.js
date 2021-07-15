@@ -7,12 +7,12 @@ export default function About() {
     <div id="about" className="container">
       <h1>About Me</h1>
       <div className="row">
-        <div className="col-5">
+        <div className="col-lg-5 col-12">
           <div className="about__img">
             <img src="./img/ava.jpg" alt="avatar" />
           </div>
         </div>
-        <div className="col-7 about__content">
+        <div className="col-lg-7 col-12 about__content">
           <h3>
             <img src="./img/online-library.png" alt="icon" />
             PERSONAL DETAILS
@@ -35,7 +35,7 @@ export default function About() {
             TECHNICAL SKILLS
           </h3>
           <div className="row mt-5">
-            <div className="col-6 about__skills">
+            <div className="col-md-6 col-12 about__skills">
               <p>
                 <img src="./img/laptop.png" alt="hinhAnh" />
                 <b>Proficient in </b>
@@ -53,7 +53,7 @@ export default function About() {
                 <p>AngularJS</p>
               </div>
             </div>
-            <div className="col-6 about__advocacies">
+            <div className="col-md-6 col-12 about__advocacies">
               <p>
                 <img src="./img/like.png" alt="hinhAnh" />
                 <b>Advocacies </b>

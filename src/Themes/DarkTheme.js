@@ -7,7 +7,7 @@ export const styleAppLayoutDark = {
 export const styleContentDark = {
     transition: "all .5s",
     margin: "auto",
-    backgroundColor: "#121212",
-    color: "#fff",
+    backgroundColor: "#242424",
+    color: "#ced8de",
   };
   

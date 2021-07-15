@@ -1,5 +1,6 @@
 #about {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
+  cursor: default;
   h1 {
     text-align: center;
     font-size: 50px;
@@ -11,16 +12,16 @@
     color: #3083dc;
   }
   .about__img {
-    width: 295px;
-    height: 300px;
+    width: 345px;
+    height: 350px;
     border-radius: 50%;
     overflow: hidden;
-    margin-left: 100px;
+    margin-left: 20px;
     margin-top: 50px;
     box-shadow: 0px 0px 10px #242424;
     img {
-      width: 300px;
-      height: 420px;
+      width: 350px;
+      height: 490px;
     }
   }
   .about__content {
@@ -105,12 +106,12 @@
             li {
               margin-top: 20px;
               font-weight: bold;
-              h6{
-                  font-weight: bold;
+              h6 {
+                font-weight: bold;
               }
             }
-            p{
-                margin-bottom: 10px;
+            p {
+              margin-bottom: 10px;
             }
             ul {
               list-style: none;
@@ -119,6 +120,150 @@
                 font-weight: normal;
                 font-size: 14px;
                 margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // RESPONSIVE
+  @media screen and(max-width:1367px) {
+    h1 {
+      font-size: 45px;
+    }
+    .about__img {
+      width: 295px;
+      height: 300px;
+      margin-left: 100px;
+      img {
+        width: 300px;
+        height: 420px;
+      }
+    }
+  }
+  @media screen and(max-width:768.98px) {
+    h1 {
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+    .about__img {
+      width: 200px;
+      height: 200px;
+      margin: -10px 0 50px 240px;
+      img {
+        width: 200px;
+        height: 275px;
+      }
+    }
+    .about__content {
+      padding: 0 70px;
+      h3 {
+        font-size: 20px;
+      }
+      .about__tabs {
+        .MuiTabs-root {
+          button {
+            span {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and(max-width:576px) {
+    h1 {
+      font-size: 30px;
+      margin-left: 20px;
+      letter-spacing: 1px;
+      margin-bottom: 40px;
+    }
+    .about__img {
+      width: 200px;
+      height: 200px;
+      margin: -10px 0 50px 100px;
+      img {
+        width: 200px;
+        height: 275px;
+      }
+    }
+    .about__content {
+      padding: 0 40px;
+      font-size: 14px;
+      h3 {
+        font-size: 18px;
+        img {
+          width: 35px;
+          height: 35px;
+          margin-right: 10px;
+          margin-top: -10px;
+        }
+      }
+      .about__content__introduce {
+        padding: 0;
+        line-height: 25px;
+        margin-bottom: 40px;
+      }
+      .about__skills {
+        border-right: none;
+        p {
+          margin-top: -25px;
+          img {
+            width: 30px;
+            height: 30px;
+            margin: -10px 10px 0 100px;
+          }
+        }
+        .about__skills__detail {
+          width: 100%;
+          p {
+            margin-right: 5px;
+            padding: 3px 15px;
+          }
+        }
+      }
+      .about__advocacies {
+        p {
+          margin-top: 20px;
+          img {
+            width: 30px;
+            height: 30px;
+            margin: -10px 10px 0 100px;
+          }
+        }
+        ul {
+          line-height: 25px;
+          margin-left: 10px;
+        }
+      }
+      .about__tabs {
+        .MuiTabs-root {
+        margin-top: 24px;
+          button {
+            margin: 0 10px;
+            span {
+              font-size: 16px;
+            }
+          }
+        }
+        .MuiBox-root {
+          p {
+            ol {
+              li {
+                margin-top: 10px;
+              }
+              p {
+                margin-bottom: 5px;
+                font-size: 14px;
+              }
+              ul {
+                line-height: 25px;
+                li {
+                  font-size: 14px;
+                }
               }
             }
           }

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Paper from "@material-ui/core/Paper";
 import {styleAppLayoutLight, styleContentLight} from 'src/Themes/LightTheme'
 import {styleAppLayoutDark, styleContentDark} from 'src/Themes/DarkTheme'
+import Footer from "src/Components/Footer";
 
 export default function AppLayout({ children,...props }) {
   const [theme, setTheme] = useState(false);
@@ -21,6 +22,8 @@ export default function AppLayout({ children,...props }) {
         <Header theme={theme} handleChangeTheme={handleChangeTheme} />
         {children}
       </Paper>
+      <Footer/>
+
     </div>
   );
 }

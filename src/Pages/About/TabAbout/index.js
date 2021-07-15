@@ -97,7 +97,7 @@ export default function TabAbout() {
         <p style={{ textAlign: "center", marginTop: "20px", fontSize: "22px" }}>
           <b>NO EXPERIENCE</b>
         </p>
-        <div style={{ marginLeft: "160px" }}>
+        <div>
           <lottie-player
             src="https://assets9.lottiefiles.com/packages/lf20_t0mvxlwu.json"
             background="transparent"

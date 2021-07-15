@@ -1,6 +1,6 @@
 body {
   .app__blog {
-    padding: 50px 0;
+    padding-top: 50px;
     .MuiPaper-root {
       width: 80%;
       border-radius: 19px;
@@ -18,7 +18,7 @@ body {
   }
   @media screen and(max-width:768.98px) {
     .app__blog {
-    padding: 20px 0;
+    padding-top: 20px;
       .MuiPaper-root {
         width: 95%;
         min-height: 984px;
