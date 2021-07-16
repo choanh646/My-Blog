@@ -5,7 +5,7 @@ import {styleAppLayoutLight, styleContentLight} from 'src/Themes/LightTheme'
 import {styleAppLayoutDark, styleContentDark} from 'src/Themes/DarkTheme'
 import Footer from "src/Components/Footer";
 
-export default function AppLayout({ children,...props }) {
+export default function AppLayout({ children }) {
   const [theme, setTheme] = useState(false);
   const toggleTheme = () => setTheme(!theme);
 

@@ -19,12 +19,15 @@ function App() {
             <Route path="/" exact>
               <Home />
             </Route>
+            {/* Route Trang About */}
             <Route path="/about">
               <About />
             </Route>
+            {/* Route Trang Contact */}
             <Route path="/contact">
-              <Contact />
+              <Contact/>
             </Route>
+            {/* Route Trang Portfolio */}
             <Route path="/portfolio">
               <Portfolio />
             </Route>
