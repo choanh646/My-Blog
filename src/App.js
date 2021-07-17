@@ -7,7 +7,7 @@ import AppLayout from "./Layouts/AppLayout";
 const Home = lazy(() => import("./Pages/Home"));
 const About = lazy(() => import("./Pages/About"));
 const Contact = lazy(() => import("./Pages/Contact"));
-const Portfolio = lazy(() => import("./Pages/Portfolio"));
+const Project = lazy(() => import("./Pages/Project"));
 //Component App
 function App() {
   return (
@@ -28,8 +28,8 @@ function App() {
               <Contact/>
             </Route>
             {/* Route Trang Portfolio */}
-            <Route path="/portfolio">
-              <Portfolio />
+            <Route path="/project">
+              <Project />
             </Route>
           </Switch>
         </AppLayout>

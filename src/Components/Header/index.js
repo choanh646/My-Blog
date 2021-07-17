@@ -45,9 +45,9 @@ export default function Header({ handleChangeTheme, theme }) {
                     About
                   </Link>
                 </NavItem>
-                <NavItem className={tagActive === "portfolio" ? "active" : ""}>
-                  <Link to="/portfolio" style={styleChangeColorTheme}>
-                    Portfolio
+                <NavItem className={tagActive === "project" ? "active" : ""}>
+                  <Link to="/project" style={styleChangeColorTheme}>
+                  Project
                   </Link>
                 </NavItem>
                 <NavItem className={tagActive === "contact" ? "active" : ""}>
